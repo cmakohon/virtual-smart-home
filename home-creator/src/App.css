@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2B303A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #92DCE5;
+  font-size: 34pt;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 2rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  font-size: 16pt;
+}
+
+input[type=submit] {
+  background-color: #2B303A;
+  color: #92DCE5;
+  border: none;
+} 
